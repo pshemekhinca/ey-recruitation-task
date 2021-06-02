@@ -1,7 +1,7 @@
 class Input:
 
     # Authentication page
-    valid_email = 'j5.ddz@bbb.ee'
+    valid_email = 'jaaa.ddz@bbb.ee'
     invalid_email = ['1', '123', '!', '@@@', 'z',' Z', 'zzz', 'ZZZ', 'zz.zz', '!@#', 'z@xz', 'xyz@123', 'xyz@yzeu']
     valid_first_name = 'Robin'
     incorrect_first_name = ['1', '323', 'R0bin', 'Hoo_d', 'Sherw??d']

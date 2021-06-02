@@ -1,0 +1,6 @@
+[32mINFO    [0m WDM:logger.py:12 
+
+[32mINFO    [0m WDM:logger.py:12 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:12 Current google-chrome version is 91.0.4472
+[32mINFO    [0m WDM:logger.py:12 Get LATEST driver version for 91.0.4472
+[32mINFO    [0m WDM:logger.py:12 Driver [/home/peha/.wdm/drivers/chromedriver/linux64/91.0.4472.19/chromedriver] found in cache
