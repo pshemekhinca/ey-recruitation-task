@@ -1,0 +1,9 @@
+{
+    "__urls__": "__urls for all pages__",
+    "home_page_url": "http://automationpractice.com/index.php",
+    "authentication_url": "http://automationpractice.com/index.php?controller=authentication&back=my-account",
+    "create_account_url": "http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation",
+    "create_back_url": "http://automationpractice.com/index.php?controller=authentication&back=my-account",
+    "create_error_url": "http://automationpractice.com/index.php?controller=authentication"
+}
+
