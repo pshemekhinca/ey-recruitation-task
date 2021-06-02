@@ -6,8 +6,7 @@ Contains several sample test cases for three subpages.
 
 Tests are ordered according to Page-object-model (POM) assumptions. 
 
-![Image of summary]
-(pytest-allure-summary.png)
+![Image of summary](pytest-allure-summary.png)
 
 ---
 
