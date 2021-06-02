@@ -71,7 +71,13 @@ The project files should be ordered as below:
     |     |--- web_urls.json
     |     `--- web_reader.py
     |
-    `--- README.md
+    |---  web_errors_screenshots
+    |     |--- authentication_form_error.png
+    |     `--- common_508_error.png
+    |
+    |--- README.md
+    |--- Test_scenario_cases.pdf
+    `--- Test_scenario_cases.xlsx
 
 [Back to the Top ^](#Table-of-Contents)
 
