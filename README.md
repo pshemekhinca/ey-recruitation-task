@@ -40,33 +40,18 @@ The project files should be ordered as below:
     
     EY-recrutation-task
     |
-    |--- configuration
-    |    |---  drivers
-    |    |     `--- # chromedriver - not commited on gitHub
-    |    |---  config_reader.py
-    |    `---  configuration.json
-    |
     |--- libs
     |    `---  allure-2.13.9 # not commited on github
     |    
     |--- results
     |    `---  # files generated for allure report
-    |  
-    |--- screenshots
-    |    `---  # dir for screenshots taken when test failed
     | 
     |--- src
-    |    |---  pages
-    |    |     |--- authentication_page.py
-    |    |     |--- create_account_page.py
-    |    |     `--- home_page.py
-    |    | 
-    |    |---  utils
-    |    |     |--- locators.py
-    |    |     |--- page_factory.py
-    |    |     |--- screenshot_listener.py
-    |    |     `--- wrappers.py
-    |    | 
+    |    `---  pages
+    |          |--- authentication_page.py
+    |          |--- create_account_page.py
+    |          `--- home_page.py
+    |      
     |--- tests
     |    |---  pages
     |    |     |--- base_test_class.py
@@ -74,14 +59,17 @@ The project files should be ordered as below:
     |    |     |--- test_create_account_page.py
     |    |     `--- test_home_page.py
     |    | 
-    |    |---  test_data
-    |    |     |--- web.json
-    |    |     `--- web_reader.py
-    |    | 
     |    `---  test_suites
-    |          |--- testsuite_all_kandelo_tests.py
+    |          |--- testsuite_all_tests.py
     |          |--- testsuite_sanity_tests.py
-    |          `--- testsuite_smke_tests.py
+    |          `--- testsuite_smoke_tests.py
+    |
+    |---  utils
+    |     |--- inputs.py
+    |     |--- locators.py
+    |     |--- page_factory.py
+    |     |--- web_urls.json
+    |     `--- web_reader.py
     |
     `--- README.md
 
@@ -99,12 +87,12 @@ pytest -v tests
 or choosing specific file, add file path;
 
 ```
-pytest -v tests/test_suites/testsuite_all_kandelo_tests.py 
+pytest -v tests/test_suites/testsuite_all_tests.py 
 ```
 
 - To screen Allure tests report, prepare report data:
 ```
-python -m pytest tests/test_suites/testsuite_all_kandelo_tests.py --alluredir ./results
+python -m pytest tests/test_suites/testsuite_all_tests.py --alluredir ./results
 ```
 - then call to screen it in default web browser
 ```
