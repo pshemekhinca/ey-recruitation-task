@@ -43,7 +43,7 @@ The project files should be ordered as below:
     EY-recrutation-task
     |
     |--- libs
-    |    `---  allure-2.13.9 # not commited on github
+    |    `---  allure-2.13.9 # not commited to github
     |    
     |--- results
     |    `---  # files generated for allure report
